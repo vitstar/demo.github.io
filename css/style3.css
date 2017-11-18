@@ -12,6 +12,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	height: 100vh;
+	overflow-x: hidden;
 }
 
 
@@ -109,7 +110,10 @@ a:focus {
 
 .landing-layout {
 	height: 100vh;
-	// overflow: hidden;
+	overflow: hidden;
+}
+.landing-layout.landing-layout--open {
+	    overflow: initial;
 }
 
 .landing-wrap {
